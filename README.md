@@ -1,7 +1,7 @@
 WebSocket Channel System
 A Python-based WebSocket server and universal client for real-time channel communication and external API testing.
 Features
-🖥️ Custom WebSocket Server
+Custom WebSocket Server
 
 Multi-channel subscription system (like Discord/Slack)
 Real-time messaging between connected users
@@ -9,7 +9,7 @@ User join/leave notifications
 Configurable channels (general, tech, random, announcements)
 Clean JSON-based protocol
 
-🔌 Universal WebSocket Client
+Universal WebSocket Client
 
 Dual Mode Operation: Automatically detects custom servers vs external APIs
 Smart URL Handling: Auto-converts protocols (ws:// ↔ wss://)
@@ -22,9 +22,10 @@ pip install websockets
 
 # How to Run / Additionally you can paste in json
 
-edog@edogai:~/websockets$ python3 ws_client.py 
+bash$:~/websockets$ python3 ws_client.py 
+
 WebSocket Channel Client
-=========================
+
 Enter WebSocket server address (default: ws://localhost:8765): wss://ws-feed.exchange.coinbase.com 
 Connecting to wss://ws-feed.exchange.coinbase.com...
 Connected to wss://ws-feed.exchange.coinbase.com
@@ -39,9 +40,10 @@ Send JSON messages directly to interact with the API.
 
 # Output
 
-edog@edogai:~/websockets$ python3 ws_client.py 
+bash$:~/websockets$ python3 ws_client.py 
+
 WebSocket Channel Client
-=========================
+
 Enter WebSocket server address (default: ws://localhost:8765):  wss://ws-feed.exchange.coinbase.com  
 Connecting to wss://ws-feed.exchange.coinbase.com...
 Connected to wss://ws-feed.exchange.coinbase.com
