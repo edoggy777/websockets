@@ -1,7 +1,6 @@
 WebSocket Channel System
+
 A Python-based WebSocket server and universal client for real-time channel communication and external API testing.
-Features
-Custom WebSocket Server
 
 Multi-channel subscription system (like Discord/Slack)
 Real-time messaging between connected users
