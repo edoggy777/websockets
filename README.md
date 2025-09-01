@@ -21,6 +21,9 @@ pip install websockets
 
 # How to Run / Additionally you can paste in json
 
+<img width="742" height="483" alt="Screenshot from 2025-09-01 11-20-20" src="https://github.com/user-attachments/assets/986efcb3-bf0b-41ac-a118-c555c8e782f0" />
+
+
 bash$:~/websockets$ python3 ws_client.py 
 
 WebSocket Channel Client
